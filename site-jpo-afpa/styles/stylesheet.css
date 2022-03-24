@@ -1,0 +1,276 @@
+/*body_______________________________________________________________________*/
+html{
+	height: 100%;
+}
+body {
+	font-family: 'gothammedium';
+    background-color: white;
+    min-height: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	padding-bottom: 5em;
+}
+/*header______________________________________________________________________*/
+* { 
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+@font-face { 
+    font-family: 'gothammedium';
+    src: url('gothammedium-webfont.woff2') format('woff2'),
+         url('gothammedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.bandeau {
+	background-image: url('../images/belledonne.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	max-width: 100%;
+}
+img{
+	height: 150px;
+	width: 146px;
+}
+/*nav_________________________________________________________________________*/
+.infos h1{
+	display: flex;
+	justify-content: space-evenly;
+	color: #00aaff;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-shadow: lightgrey 5px 8px;
+}
+.infos h2{
+	text-align: center;
+	color: #00aaff;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	text-shadow: lightgrey 5px 8px;
+}
+.infos div h3{
+	text-align: center;
+	color: #00aaff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-shadow: lightgrey 5px 8px;
+}
+.list ul li {
+	padding-top: 5px;
+	list-style: none;
+	text-align: center;
+}
+.infos a{
+    color: orange;
+	text-decoration: none;
+}
+.infos a:hover{
+    color: #00aaff;
+}
+.infos li{
+	text-align: center;
+	color: black;
+	padding-top: 10px;
+}
+.infos div img{
+	margin-bottom: 40px;
+}
+.menu ul{
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;	
+	background-color: #87bb34;
+	height: 30px;
+	margin-bottom: 5px; 
+}
+.menu ul img{
+	height: 20px;
+	width: 20px;
+	margin-top: 5px;
+}
+.menu ul li{
+	text-align: center;
+	color: white;
+}
+.menu a{
+	color: white;
+}
+.menu a:hover{
+	color:	#e3007e;
+}
+.logo {
+	display: flex;
+	justify-content: space-evenly; 
+	flex-wrap: wrap;
+	margin-top: 100px;
+}
+.logo_ue img{
+	display:block;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+} 
+/*main__________________________________________________________________________*/
+#public_images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 50px;
+}
+#public_images img {
+	box-shadow: 6px 6px 6px lightgrey;
+}
+#public_images div {
+	flex-direction: column;
+	text-align: center;
+	/* margin-bottom: 5px; */
+}
+#public_images>div:hover{
+	opacity: 100%;
+}
+#public_images>div{
+	opacity: 60%;
+}
+.cat p {	 
+	color: black;
+	text-decoration: none;
+}
+#jeunes {
+	display: none;
+	padding-bottom: 5px;
+}
+#jeunes div a{
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+#salarie {
+	display: none;
+	padding-bottom: 5px;
+}
+#salarie div a{
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+#reconversion{
+	display: none;
+	padding-bottom: 5px;
+}
+#reconversion div a{
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+#migrants {
+	display: none;
+	padding-bottom: 10px;
+}
+#migrants div a{
+	padding-bottom: 10px;
+	margin-top: 10px;
+} 
+#handicap {
+	display: none;
+	padding-bottom: 10px;
+}
+#handicap div a{
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+.col p{
+	text-align: left;
+	margin-top: 10px;
+	width: 800px;
+}
+.infos div{
+	display: flex;
+	justify-content: center;
+}
+.ado img {
+	margin: 50px;
+    margin-top: 50px;
+    box-shadow: 6px 6px 6px lightgrey;
+}
+iframe{
+	display: flex;
+    margin: 10px;
+    margin-top: 40px;
+}
+/*pages_________________________________________________________________________________________*/
+.contenu {
+	background-image: url('../images/belledonne.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	max-width: 100%;
+}
+.centre img{
+	height: 500px;
+	width: 500px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.list li{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.list h3{
+	display: flex;
+	text-align: center;
+	color:#00aaff;
+	margin-bottom: 15px;
+}
+.list p{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.list a{
+	color: orange;
+	
+}
+.list a:hover{
+	color: #00aaff;
+}
+.carte {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/*footer________________________________________________________________________________________*/	
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.social {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #87bb34;
+}
+.social img{	
+	height: 25px;
+	width: 25px;
+	margin-top: 5px;
+}
+.social div {	
+	text-align: center;
+	margin-bottom: 5px;
+}
+.social a {
+	color: white;
+}
+.social a:hover {
+	color: #00aaff;
+}
+.real p{
+	text-align: center;
+	font-size: xx-small;
+}
+
